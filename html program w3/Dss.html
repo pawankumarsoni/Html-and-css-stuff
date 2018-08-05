@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Dynamic Style</title>
+<style type="text/javascript">
+.bigText{font-size:2em}
+</style>
+<script type="text/javascript">
+function start()
+{
+alert("Go!");
+document.body.style.fontsize=16;
+pText1.style.left=100;
+pText2.className="bigText";
+}
+</script>
+</head>
+<body onload="start()">
+<p id="pText1"
+STYLE="position:absolute; top:35">
+xxx</p>
+<p id="pText2">CCC</p>
+</body>
+</html>
+<body>
